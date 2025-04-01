@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbearia - Alemãozin Barber</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="assets/css/flaticon.min.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+  </head>
+
+  <body id="top">
+    <!--
+    - #HEADER
+  -->
+
+    <header class="header">
+      <div class="header-bottom" data-header>
+        <div class="container">
+          <a href="#home" class="logo">
+            <span class="span" style="font-size: 2.2rem">Alemãozin</span>
+            Barber <i class="fas fa-cut"></i>
+          </a>
+
+          <nav class="navbar container" data-navbar>
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
+
+              <li class="navbar-item">
+                <a href="#services" class="navbar-link" data-nav-link
+                  >Serviços</a
+                >
+              </li>
+
+              <li class="navbar-item">
+                <a href="#pricing" class="navbar-link" data-nav-link>Valores</a>
+              </li>
+
+              <li class="navbar-item">
+                <a href="#contact" class="navbar-link" data-nav-link>Contato</a>
+              </li>
+            </ul>
+          </nav>
+
+          <button
+            class="nav-toggle-btn"
+            aria-label="toggle menu"
+            data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a
+            href="https://wa.me/5511930660280?text=Olá+Leonardo,+tudo+bem?+Eu+gostaria+de+agendar+um+horário!+"
+            class="btn has-before">
+            <span class="span">Agendar horário</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+          - #HERO
+        -->
+
+        <section
+          class="section hero has-before has-bg-image"
+          id="home"
+          aria-label="home"
+          style="background-image: url('./assets/images/foto_principal-2.jpg')">
+          <div class="container">
+            <h1 class="h1 hero-title">
+              Corte com estilo, barba com personalidade!
+            </h1>
+
+            <p class="hero-text">
+              Alemãozin Barber: onde a tradição encontra a inovação. Desfrute de
+              cortes de cabelo e barba de alta qualidade, com um toque de estilo
+              e personalidade.
+            </p>
+
+            <a href="#services" id="#services" class="btn has-before">
+              <span class="span">Explore nossos serviços</span>
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </section>
+
+        <!-- //////////////////////// services ////////////////////////// -->
+
+        <div class="services-wrapper" id="services">
+          <h1>Nossos <span style="color: hsl(36, 66%, 53%)">Serviços</span></h1>
+
+          <p>
+            Bem-vindo aos nossos serviços! Na Alemãozin Barber Oferecemos uma
+            variedade de serviços de alta qualidade para atender às suas
+            necessidades de beleza.
+          </p>
+
+          <div class="content-box">
+            <div class="card">
+              <i class="fa fa-scissors"></i>
+
+              <h2>Corte de cabelo</h2>
+              <p>
+                Oferecemos cortes de cabelo personalizados para atender às suas
+                necessidades e preferências.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="fas fa-swatchbook"></i>
+              <h2>Design de sobrancelha</h2>
+              <p>
+                Somos especializados em design de sobrancelha para dar um toque
+                de elegância e sofisticação ao seu rosto.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="fas fa-smile"></i>
+
+              <h2>Design de barba</h2>
+              <p>
+                Oferecemos design de barba personalizado para dar um up na sua
+                auto-estima e confiança.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="fas fa-tint"></i>
+              <h2>Tintura de cabelo</h2>
+              <p>
+                Oferecemos tintura de cabelo de alta qualidade para dar um toque
+                de cor e personalidade ao seu cabelo.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="fas fa-heartbeat"></i>
+              <h2>Tratamento especializado</h2>
+              <p>
+                Oferecemos tratamentos especializados para atender às suas
+                necessidades de saúde capilar, como tratamento de reconstrução,
+                hidratação e muito mais!
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="fas fa-eye-dropper"></i>
+              <h2>Escova progressiva</h2>
+              <p>
+                Oferecemos escova progressiva para ajudar a fortalecer e
+                melhorar a saúde do seu cabelo, além de dar um toque de brilho e
+                elasticidade.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 
+        - #PRICING
+      -->
+
+        <section
+          class="section pricing has-bg-image has-before"
+          id="pricing"
+          aria-label="pricing"
+          style="background-image: url('./assets/images/pricing-bg.jpg')">
+          <div class="container">
+            <h2 class="h2 section-title text-center">
+              Preços e <span style="color: hsl(36, 66%, 53%)">serviços</span>
+            </h2>
+
+            <p class="section-text text-center" style="color: #d6d6d6">
+              Encontre o que precisa com um preço justo para você.
+            </p>
+
+            <div class="pricing-tab-container">
+              <ul class="tab-filter">
+                <li>
+                  <button class="filter-btn active" data-filter-btn="all">
+                    <div class="btn-icon">
+                      <img src="assets/images/scissor-and-comb.png" alt="" />
+                    </div>
+
+                    <p class="btn-text">Todos os preços</p>
+                  </button>
+                </li>
+
+                <li>
+                  <button class="filter-btn" data-filter-btn="body-treatments">
+                    <div class="btn-icon">
+                      <img src="assets/images/mulher-com-cabelo-comprido.png" />
+                    </div>
+
+                    <p class="btn-text">Tratamento capilar</p>
+                  </button>
+                </li>
+
+                <li>
+                  <button class="filter-btn" data-filter-btn="face-washing">
+                    <div class="btn-icon">
+                      <img src="assets/images/cabelo-masc.png" alt="" />
+                    </div>
+
+                    <p class="btn-text">Corte de cabelo</p>
+                  </button>
+                </li>
+
+                <li>
+                  <button class="filter-btn" data-filter-btn="meditations">
+                    <div class="btn-icon">
+                      <img src="assets/images/beard.png" alt="" />
+                    </div>
+
+                    <p class="btn-text">Barba e bigode</p>
+                  </button>
+                </li>
+
+                <li>
+                  <button class="filter-btn" data-filter-btn="shaving">
+                    <div class="btn-icon">
+                      <img src="assets/images/eyebrown-brushes.png" alt="" />
+                    </div>
+
+                    <p class="btn-text">Sobrancelha</p>
+                  </button>
+                </li>
+              </ul>
+
+              <!-- //////////////// preços ///////////////// -->
+
+              <ul class="grid-list">
+                <li data-filter="face-washing">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90">
+                      <img
+                        src="./assets/images/pricing-1.jpg"
+                        width="90"
+                        height="90"
+                        alt="Hair Cutting & Fitting"
+                        class="img-cover" />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Corte de cabelo</h3>
+
+                      <p class="card-text">
+                        Corte personalizado para o seu estilo
+                      </p>
+                    </div>
+
+                    <data class="card-price" value="20">R$20,00</data>
+                  </div>
+                </li>
+
+                <li data-filter="face-washing" data-filter="meditations">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90">
+                      <img
+                        src="./assets/images/pricing-2.jpg"
+                        width="90"
+                        height="90"
+                        alt="Shaving & Facial"
+                        class="img-cover" />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Cabelo & Barba</h3>
+
+                      <p class="card-text">Combo cabelo e barba</p>
+                    </div>
+
+                    <data class="card-price" value="45">R$30,00</data>
+                  </div>
+                </li>
+
+                <li data-filter="body-treatments">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90">
+                      <img
+                        src="./assets/images/pricing-3.jpg"
+                        width="90"
+                        height="90"
+                        alt="Hair Color & Wash"
+                        class="img-cover" />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Coloração</h3>
+
+                      <p class="card-text">Coloração de cabelo</p>
+                    </div>
+
+                    <data class="card-price" value="35">R$35,00</data>
+                  </div>
+                </li>
+
+                <li data-filter="body-treatments">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90">
+                      <img
+                        src="./assets/images/pricing-4.jpg"
+                        width="90px"
+                        height="90px"
+                        alt="Body Massage"
+                        class="img-cover"
+                        style="width: 90px; height: 90px" />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Luzes</h3>
+
+                      <p class="card-text">Descoloração em luzes</p>
+                    </div>
+
+                    <data class="card-price" value="56">R$60,00</data>
+                  </div>
+                </li>
+
+                <li data-filter="shaving">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90">
+                      <img
+                        src="./assets/images/sobrancelha.png"
+                        width="90"
+                        height="90"
+                        alt="Beauty & Spa"
+                        class="img-cover"
+                        style="width: 90px; height: 90px" />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Sobrancelha</h3>
+
+                      <p class="card-text">Design de sobrancelha</p>
+                    </div>
+
+                    <data class="card-price" value="27">R$7,50</data>
+                  </div>
+                </li>
+
+                <li data-filter="meditations">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90">
+                      <img
+                        src="./assets/images/barba.jpg"
+                        width="90"
+                        height="90"
+                        alt="Facial & Face Wash"
+                        class="img-cover"
+                        style="width: 90px; height: 90px" />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Barba</h3>
+
+                      <p class="card-text">Design de barba</p>
+                    </div>
+
+                    <data class="card-price" value="63">R$15,00</data>
+                  </div>
+                </li>
+
+                <li data-filter="body-treatments">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90">
+                      <img
+                        src="./assets/images/progressiva.webp"
+                        width="90"
+                        height="90"
+                        alt="Backbone Massage"
+                        class="img-cover"
+                        style="width: 90px; height: 90px" />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Progressiva</h3>
+
+                      <p class="card-text">Escovação progressiva</p>
+                    </div>
+
+                    <data class="card-price" value="43">R$40,00</data>
+                  </div>
+                </li>
+
+                <li data-filter="face-washing">
+                  <div class="pricing-card">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 90; --height: 90">
+                      <img
+                        src="./assets/images/corte-sobran.jpg"
+                        width="90"
+                        height="90"
+                        alt="Meditation & Massage"
+                        class="img-cover"
+                        style="width: 90px; height: 90px" />
+                    </figure>
+
+                    <div class="wrapper">
+                      <h3 class="h3 card-title">Corte & sobrancelha</h3>
+
+                      <p class="card-text">
+                        Combo corte de cabelo e sobrancelha
+                      </p>
+                    </div>
+
+                    <data class="card-price" value="74">R$25,00</data>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- /////////////////// contato ///////////////////// -->
+
+        <section class="contact" id="contact">
+          <div class="main-container">
+            <div class="contact-header">
+              <h1 style="font-size: 4rem">
+                Nosso
+                <span style="color: hsl(36, 66%, 53%); font-size: 4rem"
+                  >Contato</span
+                >
+              </h1>
+              <p style="font-size: 2rem">
+                Entre em contato conosco através dos canais abaixo ou pelo
+                WhatsApp
+              </p>
+            </div>
+
+            <div class="contact-wrapper">
+              <div class="contact-cards">
+                <div class="contact-card">
+                  <i class="fas fa-phone"></i>
+                  <h3>Celular</h3>
+                  <p>(11) 93066-0280</p>
+                </div>
+
+                <div class="contact-card">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=contato@empresa.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>contato@empresa.com</p>
+                  </a>
+                </div>
+
+                <div class="contact-card">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <h3>Endereço</h3>
+                  <p>São Paulo, SP</p>
+                </div>
+
+                <div class="contact-card">
+                  <a
+                    href="https://www.instagram.com/alemaozin_barber?igsh=MWF2dnJkOHEwNjlweQ=="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link">
+                    <i class="fab fa-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>@alemãozin_barber</p>
+                  </a>
+                </div>
+              </div>
+
+              <div class="whatsapp-card">
+                <h2>Vamos conversar no WhatsApp!</h2>
+                <p>
+                  Prefere conversar por mensagem? Clique no botão abaixo para
+                  falar com um de nossos representantes.
+                </p>
+
+                <img
+                  src="assets/images/call-center.jpg"
+                  alt="Call center illustration"
+                  class="whatsapp-image" />
+
+                <a href="https://wa.me/5511930660280" class="whatsapp-button">
+                  <i class="fab fa-whatsapp"></i> Conversar
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer>
+      <div class="footer">
+        <div class="box-container">
+          <a href="#home" class="logo">
+            <span class="span" style="color: black; font-size: 2.2rem"
+              >Alemãozin</span
+            >
+            Barber <i class="fas fa-cut"></i>
+          </a>
+
+          <br />
+
+          <div class="box">
+            <h3>Links rápidos</h3>
+
+            <a href="#home">Home</a>
+            <a href="#services">Serviços</a>
+            <a href="#pricing">Valores</a>
+            <a href="#contact">Contato</a>
+          </div>
+
+          <div class="box">
+            <h3>Nossas redes sociais:</h3>
+
+            <a href="#facebook"
+              ><i class="fa-brands fa-facebook-f"></i>
+              <p>Facebook</p>
+            </a>
+
+            <a
+              href="https://www.instagram.com/alemaozin_barber?igsh=MWF2dnJkOHEwNjlweQ=="
+              ><i class="fa-brands fa-instagram"></i>
+              <p>Instagram</p>
+            </a>
+
+            <a href="https://wa.me/5511930660280"
+              ><i class="fa-brands fa-whatsapp"></i>
+              <p>Whatsapp</p>
+            </a>
+          </div>
+
+          <div class="box">
+            <h3>Contato:</h3>
+
+            <i class="fa-solid fa-envelope"></i>
+            <p>Email: contato@empresa.com</p>
+
+            <i class="fa-solid fa-phone"></i>
+            <p>Telefone: (11) 93066-0280</p>
+
+            <i class="fa-solid fa-map-marker-alt"></i>
+            <p>Endereço: Rua canto do engenho, N°239, São Paulo - SP</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="credit">
+        &copy; 2025 Alemãozin Barber - Todos os direitos reservados -
+        @edu_silva_art.
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn>
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <script src="./assets/js/script.js" defer></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
