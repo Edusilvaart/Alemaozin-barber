@@ -141,7 +141,6 @@ html {
   font-family: var(--ff-rubik);
   font-size: 10px;
   scroll-behavior: smooth;
-  width: auto;
 }
 
 body {
@@ -688,7 +687,6 @@ body {
 .main-container {
   background-color: #dadada;
   width: 100vw;
-  min-width: 80vh;
   padding: 30px 0;
   min-height: auto;
 }
@@ -1481,15 +1479,12 @@ body {
 }
 
 @media (max-width: 575px) {
-  html {
-    min-width: 130vw;
+  .container h1 {
+    font-size: 2.5rem;
+    margin-top: 5rem;
   }
 
-  header {
-    min-width: 130vw;
-  }
-
-  .main-container {
-    min-width: 130vw;
+  .logo {
+    font-size: 2rem;
   }
 }
